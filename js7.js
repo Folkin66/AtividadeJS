@@ -11,7 +11,7 @@ switch (operacao) {
     case "-":
         resultado = num1 - num2
         break;
-    case "*":
+    case "*":s
         resultado = num1 * num2
         break;
     case "/":
