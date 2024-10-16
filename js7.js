@@ -12,7 +12,7 @@ switch (operacao) {
         resultado = num1 - num2
         break;
     case "*":
-        resultado = num1 * num221
+        resultado = num1 * num2
         break;
     case "/":
         if (num2 !== 0) {
