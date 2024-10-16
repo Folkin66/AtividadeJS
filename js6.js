@@ -1,19 +1,22 @@
-idade = 60
+idade = 27
 
-switch (idade) {
-    case 5: 
-        console.log('Criança');
-        break;
-    case 14: 
-        console.log('Adolescente');
-        break;
-    case 18: 
-        console.log('Aduslto');
-        break;
-    case 60: 
-        console.log('Idoso');
-        break;
+let categoria;
 
+switch (true) {
+    case (idade >= 0 && idade <= 12):
+        categoria = "Criança";
+        break;
+    case (idade >= 13 && idade <= 17):
+        categoria = "Adolescente";
+        break;
+    case (idade >= 18 && idade <= 64):
+        categoria = "Adulto";
+        break;
+    case (idade >= 65):
+        categoria = "Idoso";
+        break;
     default:
-        break;
+        categoria = "Idade inválida!";
 }
+
+console.log(categoria);
