@@ -18,12 +18,12 @@ switch (operacao) {
         if (num2 !== 0) {
             resultado = num1 / num2
         } else {
-            console.log("Erro: Divisão por zero!");
+            alert("Erro: Divisão por zero!");
             resultado = null
         }
         break;
     default:
-        console.log("Operação inválida!");
+        alert("Operação inválida!");
         resultado = null
 }
 

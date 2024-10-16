@@ -1,9 +1,9 @@
-let num = -2
+let num = Number(prompt('Insira um número inteiro:'))
 
 if (num > 0) {
-    console.log(`O número ${num} é positivo.`);
+    alert(`O número ${num} é positivo.`);
 } else if (num === 0) {
-    console.log(`O número ${num} é zero.`);
+    alert(`O número ${num} é zero.`);
 } else {
-    console.log(`O número ${num} é negativo.`);
+    alert(`O número ${num} é negativo.`);
 }

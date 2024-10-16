@@ -1,4 +1,4 @@
-dia = 7
+dia = Number(prompt('Que dia é hoje?'))
 
 switch (dia) {
     case 1:
